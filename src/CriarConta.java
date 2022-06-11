@@ -50,6 +50,7 @@ public class CriarConta {
         String cpf = TratarInputs.cpfInput();
         System.out.println("Digite uma senha:");
         String senha = sc.nextLine();
+        senha = String.format("%d",senha.hashCode());
 
         return new Cliente(nome,endereco,renda,celular,cpf,senha);
 

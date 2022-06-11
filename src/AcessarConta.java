@@ -33,6 +33,7 @@ public class AcessarConta {
         int numero = TratarInputs.numeroCCInput();
         System.out.println("Informe a senha: ");
         String senha = sc.nextLine();
+        senha = String.format("%d",senha.hashCode());
 
         if(Banco.getContaCorrente(numero).getCliente().getSenha().equals(senha)) logarCC(Banco.getContaCorrente(numero)); else System.out.println("\n Senha não confere");
 
@@ -77,6 +78,7 @@ public class AcessarConta {
         int numero = TratarInputs.numeroCPInput();
         System.out.println("Informe a senha: ");
         String senha = sc.nextLine();
+        senha = String.format("%d",senha.hashCode());
 
         if(Banco.getContaPoupanca(numero).getCliente().getSenha().equals(senha)) logarCP(Banco.getContaPoupanca(numero)); else System.out.println("\n Senha não confere");
 

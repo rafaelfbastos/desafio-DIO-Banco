@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "cliente": {
+      "senha": "1450575459",
+      "telefone": "(45) 98553-6023",
+      "endereco": "Rua Marechal Arthur Costa e Silva 823",
+      "cpf": "50841993041",
+      "nome": "Guilherme Bernardo Anthony Martins",
+      "renda": 1000.0
+    },
+    "numero": 1,
+    "limite utilizado": 0.0,
+    "saldo": 0.0,
+    "limite": 1000.0,
+    "agencia": 1
+  },
+  {
+    "cliente": {
+      "senha": "1450575459",
+      "telefone": "(27) 98751-5782",
+      "endereco": "Rua Presidente Costa e Silva",
+      "cpf": "06087429298",
+      "nome": "Stella Isis Almeida",
+      "renda": 3000.0
+    },
+    "numero": 2,
+    "limite utilizado": 0.0,
+    "saldo": 0.0,
+    "limite": 1000.0,
+    "agencia": 1
+  },
+  {
+    "cliente": {
+      "senha": "1450575459",
+      "telefone": "(62) 98461-4550",
+      "endereco": "Rua 13",
+      "cpf": "44090546605",
+      "nome": "Luiz Erick Diogo Barros",
+      "renda": 4000.0
+    },
+    "numero": 3,
+    "limite utilizado": 0.0,
+    "saldo": 0.0,
+    "limite": 1000.0,
+    "agencia": 1
+  }
+]

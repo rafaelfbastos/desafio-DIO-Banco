@@ -52,7 +52,7 @@ public class TratarInputs {
             try{
                 Scanner sc = new Scanner(System.in);
                 String celular = sc.nextLine();
-                if (celular.length()==11) return celular;
+                return celular;
             }catch (Exception e){
 
             }

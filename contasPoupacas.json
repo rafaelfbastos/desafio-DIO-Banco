@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "cliente": {
+      "senha": "1450575459",
+      "telefone": "(27) 99678-8061",
+      "endereco": "Avenida Bela Vista",
+      "cpf": "98375998044",
+      "nome": "Cristiane Sabrina Martins",
+      "renda": 500.0
+    },
+    "numero": 1,
+    "saldo": 0.0,
+    "agencia": 1
+  },
+  {
+    "cliente": {
+      "senha": "1450575459",
+      "telefone": "(61) 98747-5996",
+      "endereco": "Rua do Cravo",
+      "cpf": "79265902744",
+      "nome": "Tiago Roberto Sebastião da Costa",
+      "renda": 1000.0
+    },
+    "numero": 2,
+    "saldo": 0.0,
+    "agencia": 1
+  }
+]
